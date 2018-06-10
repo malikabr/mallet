@@ -71,9 +71,9 @@ print(cnt2)
 for k , v in all_words.items():
     m = divmod(k,2)
     if m[1]==0:
-        file.write(str(k) + "-1" + v + "\n")
+        file.write(str(k) + " " + "-1" + " " + v + "\n")
     else:
-        file.write(str(k)+str(m[1])  + v + "\n")
+        file.write(str(k)+ " " + str(m[1]) + " "  + v + "\n")
 
 file.close()
 
